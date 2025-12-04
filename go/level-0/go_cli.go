@@ -1,0 +1,1 @@
+// - Exercise: Build a simple CLI that accepts a flag (e.g., --server) and prints the contents of dummy_env/servers/server1.conf. Use conditionals to handle missing flags and loops if you want to extend it to multiple servers later.

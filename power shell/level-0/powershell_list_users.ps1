@@ -1,0 +1,1 @@
+# - Exercise: Read dummy_env/users/users.csv and loop through each row to display usernames. Add a conditional to check if a user has a specific role (e.g., “admin”) and print a message for those entries.

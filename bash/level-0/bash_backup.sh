@@ -1,0 +1,1 @@
+# - Exercise: Open dummy_env/configs/aws_config.json, read its contents, and print out the keys (like regions or profiles). Use a loop to iterate through the JSON structure and conditionals to handle missing values.
