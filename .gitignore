@@ -2,15 +2,17 @@
 file_structure.txt
 project_plan.txt
 
-# Python
+# --- Python ---
+# Bytecode, compiled extensions, and virtual environments
 *.py[cod]
 *$py.class
 *.so
 .Python
-__pycache__/
+pycache/
 .pytest_cache/
 
-# Environments
+# --- Environments ---
+# Virtual environments, secrets, and temp environments
 .env
 .venv/
 env/
@@ -20,16 +22,27 @@ env.bak/
 venv.bak/
 dummy_env/
 
-# IDEs
+# --- Assignment Data Files: OVERRIDE ---
+# Explicitly include the subdirectories containing the mock assignment INPUT data.
+# This overrides the 'dummy_env/' ignore above.
+!dummy_env/logs/
+!dummy_env/configs/
+!dummy_env/users/
+!dummy_env/servers/
+
+# NOTE: The 'backup/' folder remains IGNORED, as it contains script output.
+
+# --- IDEs ---
 .idea/
 .vscode/
 
-# Build artifacts
+# --- Build artifacts ---
 build/
 dist/
 *.egg-info/
 
-# Other
+# --- Other ---
+# Logs, temporary files, OS-generated files
 *.log
 .DS_Store
 Thumbs.db
