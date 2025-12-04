@@ -1,0 +1,39 @@
+# Existing ignores
+file_structure.txt
+project_plan.txt
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+__pycache__/
+.pytest_cache/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+dummy_env/
+
+# IDEs
+.idea/
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Other
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Gemini Configuration and Context ---
+GEMINI.md
+.gemini/
